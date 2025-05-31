@@ -11,7 +11,33 @@
 .Home{
     height: 88vh;
     background-image: url(https://wallpapers.com/images/hd/website-background-sdki780prxb1nfs5.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    overflow: hidden;
+}
+.Home::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: inherit;
+    filter: blur(10px);
+    z-index: 0;
+    pointer-events: none;
+}
+.Home > * {
+    position: relative;
+    z-index: 1;
+}
 
+.home-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: white;
 }
 /* .home-page-conent{
 display: flex;
