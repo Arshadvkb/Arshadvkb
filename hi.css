@@ -81,7 +81,11 @@ section {
     align-items: center;
 }
 .about-page-content p{
-    width: 50%;
+    width: 100%;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 0;
 }
 .my-image{
     height: 300px;
