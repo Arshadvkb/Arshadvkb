@@ -1,0 +1,82 @@
+.home-button{
+    text-decoration: none;
+    color: rgb(38, 39, 41);
+   
+}
+.namee{
+ font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px  0  0 40px;
+}
+.Home{
+    height: 88vh;
+    background-image: url(https://wallpapers.com/images/hd/website-background-sdki780prxb1nfs5.jpg);
+
+}
+/* .home-page-conent{
+display: flex;
+flex-direction: row;
+} */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical centering */
+  align-items: center;      /* horizontal centering */
+  text-align: center;       /* optional: centers inline text content */
+  min-height: 100vh;        /* optional: makes sections fill the screen */
+}
+.about{
+    height:88vh;
+}
+.qualifications{
+ height:88vh;
+}
+.services{
+     height:88vh;
+}
+
+#about-page{
+    height: 88vh;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    scroll-margin-top: 12vh;
+}
+.about-page-content{
+    width:100%;
+    height: 80%;
+    background-color: #ebd491;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-page-content p{
+    width: 50%;
+}
+.my-image{
+    height: 300px;
+    width: 400px;
+}
+.social-media{
+    font-size: 25px;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-item:hover:hover{
+  
+    background-color:gray;
+}
+.card-link{
+    text-decoration: none;
+}
+.project-content{
+    display: flex;
+    justify-content: center;
+}
+.card-text{
+    font-weight:normal;
+}
