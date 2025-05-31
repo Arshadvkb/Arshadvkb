@@ -32,12 +32,13 @@
 
 .home-page-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100%;
     color: white;
+    animation: slideDown 1.2s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
 /* .home-page-conent{
 display: flex;
@@ -117,4 +118,35 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation for Home section image and text */
+@keyframes slideDownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-animate {
+  animation: slideDownFade 2.2s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
