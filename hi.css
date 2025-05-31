@@ -118,7 +118,8 @@ section {
 }
 .footer{
     height: 20vh;
-    background-color: #ebd491;
+
+    background-color: rgb(75, 103, 75);
     display: flex;
     justify-content: center;
     align-items: center;
