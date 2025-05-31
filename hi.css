@@ -111,3 +111,10 @@ section {
     height: 100%;
     border-radius: 60px;
 }
+.footer{
+    height: 20vh;
+    background-color: #ebd491;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
