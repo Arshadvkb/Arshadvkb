@@ -50,7 +50,8 @@ section {
   justify-content: center;  /* vertical centering */
   align-items: center;      /* horizontal centering */
   text-align: center;       /* optional: centers inline text content */
-  min-height: 100vh;        /* optional: makes sections fill the screen */
+  min-height: 100vh;   
+  width: 100%;     /* optional: makes sections fill the screen */
 }
 .about{
     height:88vh;
