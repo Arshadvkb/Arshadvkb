@@ -59,7 +59,7 @@ graph TD
     classDef lang fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
 
     class A main;
-    class B,B1,B2 mobile;
+    class B,B1,B2,B3 mobile;
     class C,C1,C2,C3 web;
     class D1,D2,D3,D4,D5,D6,D7 lang;
     
