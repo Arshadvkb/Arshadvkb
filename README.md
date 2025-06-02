@@ -1,228 +1,95 @@
-<!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth">
+<h1 align="center">Hi, I'm Muhammed Raseel 👋</h1>
+<h3 align="center">Flutter Enthusiast</h3>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>ARSHAD VKB</title>
-  <link rel="shortcut icon" href="./picture/WhatsApp Image 2025-05-31 at 1.35.43 PM.jpeg"  type="image/x-icon">
-  <link rel="stylesheet" href="hi.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
-</head>
-
-<body>
+<div align="center">
 
 
-  <header style="color:white; position: fixed; width: 100%; height:12vh ; z-index: 100">
-    <div class="row " style="background-color: white;">
-      <div class="col-9 " style="padding-right: 10px;">
-        <a href="#Home" class="home-button ">
-          <h1 class="namee">Arshad Vkb</h1>
-        </a>
-      </div>
-      <div class="col-3 ">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">Project</a>
-                </li>
-                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">contact</a>
-                </li>
-
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-
-      </div>
-    </div>
-  </header>
+[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/connectmeraseel/)
+[![Email](https://badgen.net/badge/Email/Send%20Mail/4b5563?icon=gmail&labelColor=black)](mailto:raseelp321@gmail.com)
+[![Resume](https://badgen.net/badge/Resume/View/4b5563?icon=document&labelColor=black)](https://app.flowcv.com/f533558d-f50d-4392-b569-74e83034473e)
 
 
 
-  <section class="Home pt-5" id="Home">
-    <div class="container-fluid home-page-conent">
-      <div class="row align-items-center">
-        <div class="col-md-4 text-center home-animate">
-          <img
-            src="picture/WhatsApp Image 2025-05-31 at 1.35.43 PM.jpeg"
-            alt="" class="rounded-circle mt-4 profile-picture" style="height: 220px; width: 220px;">
-        </div>
-        <div class="col-md-8 d-flex flex-column justify-content-center home-animate">
-          <h1 style="font-family:sans-serif; color: white;">Arshad VKB</h1>
-          <h4 style="color:white; background-color: transparent; text-align:left; margin-top:10px;">
-            I am Backend developer. I use Python and Node.js for backend. I use Git and GitHub for version control.
-          </h4>
-        </div>
-      </div>
-    </div>
-  </section>
+</div>
 
+```typescript
+class Developer {
+    string name = "Muhammed Raseel";
+    string role  = "Flutter Developer";
+    string location  = "India,Kerala";
+    string workingOn  = "Kazhicho?";
+    List<String> learning  = ["Flutter","Go","Gin","MongoDB"];
+    List<String> askMeAbout = ["Web Dev", "App Dev", "Flutter", "UI/UX",];
+}
+```
 
+## 💻 Technical Skills
 
+```mermaid
+%% Note: This graph showcases my Technical Skills.  
+%% If it doesn't display, please view it on the GitHub website.
+graph TD
+    A[App Developer] --> B[Front-End]
+    A --> C[Back-End]
+   
+    
+    B --> B1[Flutter]
+    B --> B2[Dart]
 
+    C --> C1[Languages and FrameWorks]
+    C --> C2[Databases]
 
-  <section id="about" class="about-page bg-light py-5">
-    <div class="container">
-      <h1 class="about-page-head text-center mb-4">About Me</h1>
+    C1 --> D1[Go]
+    C1 --> D2[Gin]
+    C1 --> D3[Python]
+    C1 --> D4[Django]
 
-      <div class="row align-items-center">
-
-        <!-- Text Column -->
-        <div class="col-12 col-md-6 mb-4 mb-md-0" id="about-page-content">
-          <p>
-            I’m Arshad VKB, a backend developer from Calicut, Kerala, with a strong focus on Python and Django for
-            building reliable and scalable web applications. I have a basic understanding of Node.js, HTML, CSS,
-            Bootstrap, Tailwind CSS, Java, C, and C++, which helps me collaborate effectively across different parts of
-            a project. I use Git and GitHub for version control to keep my workflow organized and ensure smooth
-            collaboration with other developers.
-          </p>
-        </div>
-
-        <!-- Image Column -->
-        <div class="col-12 col-md-6 text-center">
-          <img
-            src="picture/WhatsApp Image 2025-05-31 at 1.35.43 PM.jpeg"
-            alt="My Image" class="img-fluid rounded shadow my-image" />
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <section class="projects" id="projects">
-
-
-    <center>
-      <h1>Projects</h1>
-    </center>
-
-    <div class="container-fluid project-content">
-      <div class="row m-5">
-<div class="card m-5" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Aero AI</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Ai automated aeroponics<h6>
-                <p class="card-text">An AI that automates aeroponics agriculture system </p>
-                <a href="#" class="card-link btn btn-outline-primary">GitHub</a>
-
-          </div>
-        </div>
-        
-        <div class="card m-5" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">All In One Fitness App</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Gym community</h6>
-            <p class="card-text">An app that serves a community for members of a gym</p>
-            <a href="https://github.com/Arshadvkb/fitness_app_flutter" class="card-link btn btn-outline-primary"
-              target="_blank">GitHub</a>
-
-          </div>
-        </div>
-
-
-        
-      </div>
-    </div>
-
-  </section>
-<section class="contact bg-light" id="contact">
+    C2 --> D5[MongoDB]
+    C2 --> D6[MySQL]
+    C2 --> D7[Firebase]
+    
   
-    <center>
-      <h1>Get In Touch</h1>
-    </center>
-    <div class="container pt-5">
-      <div class="row">
-      <div class=" col-6">
-        <input type="text" class="form-control mb-3" placeholder="Enter your name">
-      </div>
-      <div class=" col-6">
-        <input type="text" class="form-control mb-3" placeholder="Enter your email">
-      </div>
-    </div>
+   
+    
+    
+  
 
-    <div class="row">
-      <div class="col-12">
-        <textarea class="form-control mb-3" rows="5" placeholder="Enter your message"></textarea>
-      </div>
-      <div class="col-12">
-        <input type="button" value="Send Message" class="btn btn-primary mb-3" style="width: 100%;">
-      </div>
-    </div>
+    classDef main fill:#1f2937,stroke:#fbbf24,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
+    classDef mobile fill:#374151,stroke:#22d3ee,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
+    classDef web fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
+    classDef lang fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
+
+    class A main;
+    class B,B1,B2 mobile;
+    class C,C1,C2,C3 web;
+    class D1,D2,D3,D4,D5,D6,D7 lang;
+    
+
+```
 
 
-</section>
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Raseelp&theme=tokyonight&hide_border=true&border_radius=10" height="160" alt="GitHub Streak"/>
+  &nbsp;&nbsp;
+  
+</div>
+
+## 🤝 Connect With Me
+
+<div align="center">
+    
+[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/connectmeraseel/)
+[![Instagram](https://badgen.net/badge/Instagram/Follow/6b7280?icon=instagram&labelColor=black)](https://www.instagram.com/rra_see_ll/?__pwa=1)
+[![HackerRank](https://badgen.net/badge/HackerRank/Practice/4b5563?icon=code&labelColor=black)](https://www.hackerrank.com/raseelp321)
+[![LeetCode](https://badgen.net/badge/LeetCode/Challenge/1f2937?icon=leetcode&labelColor=black)](https://leetcode.com/u/MuhammedRaseel/)
 
 
-
-
-
-
-
-
-
-
-  <footer class="footer">
-    <div class="container-fluid ">
-      <div class="row justify-content-center py-3">
-        <a class="col-1 text-center" href="https://www.instagram.com/arshadvkb" target="_blank">
-          <i class="fab fa-instagram fa-2x" style="color: white;"></i>
-        </a>
-        <a class="col-1 text-center" href="https://www.facebook.com/share/KioMU1hwQx8cmYCN" target="_blank">
-          <i class="fab fa-facebook fa-2x" style="color: white;"></i>
-        </a>
-        <a class="col-1 text-center" href="https://x.com/arshad_vkb?t=acFJcTJrXmr26GVVT4dmrA&s=08" target="_blank">
-          <i class="fab fa-twitter fa-2x" style="color: white;"></i>
-        </a>
-        <a class="col-1 text-center" href="https://www.linkedin.com/in/arshadvkb" target="_blank">
-          <i class="fab fa-linkedin fa-2x" style="color: white;"></i>
-        </a>
-        <a class="col-1 text-center" href="https://github.com/arshadvkb" target="_blank">
-          <i class="fab fa-github fa-2x" style="color: white;"></i>
-        </a>
-      </div>
-      <div class="row text-center">
-        <p> © 2025 All copywrites Reserved</p>
-      </div>
-      <div class="row">
+</div>
 
 
 
-
-       
-      </div>
-    </div>
-
-    </div>
-    </div>
-
-
-
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="scripts.js"></script>
-</body>
-
-</html>
+<div align="center">
+  <i>Always learning, always growing. Feel free to reach out!</i>
+</div>
