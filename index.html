@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>ARSHAD VKB</title>
+  <script src="index.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "duoZCLXYg_bOL50uA",
+      });
+   })();
+</script>
   <link rel="shortcut icon" href="./picture/WhatsApp Image 2025-05-31 at 1.35.43 PM.jpeg"  type="image/x-icon">
   <link rel="stylesheet" href="hi.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
@@ -120,26 +132,23 @@
 
     <div class="container-fluid project-content">
       <div class="row m-5">
-<div class="card m-5" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Aero AI</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Ai automated aeroponics<h6>
-                <p class="card-text">An AI that automates aeroponics agriculture system </p>
-                <a href="#" class="card-link btn btn-outline-primary">GitHub</a>
 
-          </div>
-        </div>
-        
         <div class="card m-5" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">All In One Fitness App</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Gym community</h6>
-            <p class="card-text">An app that serves a community for members of a gym</p>
-            <a href="https://github.com/Arshadvkb/fitness_app_flutter" class="card-link btn btn-outline-primary"
-              target="_blank">GitHub</a>
-
-          </div>
-        </div>
+  <img class="card-img-top" src="./picture/aero_ai.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Aero AI</h5>
+    <p class="card-text">An AI that automates aeroponics agriculture system</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+        <div class="card m-5" style="width: 18rem;">
+  <img class="card-img-top" src="./picture/WhatsApp Image 2025-06-02 at 10.02.51 AM.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">All In One Fitness App</h5>
+    <p class="card-text">An app that serves a community for members of a gym</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
 
 
         
@@ -155,19 +164,19 @@
     <div class="container pt-5">
       <div class="row">
       <div class=" col-6">
-        <input type="text" class="form-control mb-3" placeholder="Enter your name">
+        <input type="text" class="form-control mb-3" placeholder="Enter your name" id="name">
       </div>
       <div class=" col-6">
-        <input type="text" class="form-control mb-3" placeholder="Enter your email">
+        <input type="text" class="form-control mb-3" placeholder="Enter your email" id="email">
       </div>
     </div>
 
     <div class="row">
       <div class="col-12">
-        <textarea class="form-control mb-3" rows="5" placeholder="Enter your message"></textarea>
+        <textarea class="form-control mb-3" rows="5" placeholder="Enter your message" id="message"></textarea>
       </div>
       <div class="col-12">
-        <input type="button" value="Send Message" class="btn btn-primary mb-3" style="width: 100%;">
+        <input type="button" value="Send Message" class="btn btn-primary mb-3" style="width: 100%;" onclick="sendEmail()">
       </div>
     </div>
 
