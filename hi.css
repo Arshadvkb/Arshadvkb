@@ -16,19 +16,7 @@
    
     overflow: hidden;
 }
-.Home::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: inherit;
-    filter: blur(10px);
-    z-index: 0;
-    pointer-events: none;
-}
-.Home > * {
-    position: relative;
-    z-index: 1;
-}
+
 
 .home-page-content {
     display: flex;
@@ -111,7 +99,7 @@ section {
 }
 .footer{
     height: 20vh;
-    background-color: #ebd491;
+    background-color: #5e8354;
     display: flex;
     justify-content: center;
     align-items: center;
