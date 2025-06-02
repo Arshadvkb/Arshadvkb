@@ -33,7 +33,7 @@ graph TD
     
     B --> B1[HTML]
     B --> B2[CSS]
-    B --> B2[BOOTSTRAP]
+    B --> B3[BOOTSTRAP]
 
     C --> C1[Languages and FrameWorks]
     C --> C2[Databases]
