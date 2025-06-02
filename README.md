@@ -1,12 +1,11 @@
-<h1 align="center">Hi, I'm Muhammed Raseel 👋</h1>
-<h3 align="center">Flutter Enthusiast</h3>
+<h1 align="center">Hi, I'm Arshad VKB 👋</h1>
+<h3 align="center">Python Enthusiast</h3>
 
 <div align="center">
 
 
-[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/connectmeraseel/)
-[![Email](https://badgen.net/badge/Email/Send%20Mail/4b5563?icon=gmail&labelColor=black)](mailto:raseelp321@gmail.com)
-[![Resume](https://badgen.net/badge/Resume/View/4b5563?icon=document&labelColor=black)](https://app.flowcv.com/f533558d-f50d-4392-b569-74e83034473e)
+[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/arshadvkb)
+[![Email](https://badgen.net/badge/Email/Send%20Mail/4b5563?icon=gmail&labelColor=black)](mailto:arshadvkb969@gmail.com)
 
 
 
@@ -14,12 +13,11 @@
 
 ```typescript
 class Developer {
-    string name = "Muhammed Raseel";
-    string role  = "Flutter Developer";
+    string name = "Arshad VKB";
+    string role  = "Python Developer";
     string location  = "India,Kerala";
-    string workingOn  = "Kazhicho?";
-    List<String> learning  = ["Flutter","Go","Gin","MongoDB"];
-    List<String> askMeAbout = ["Web Dev", "App Dev", "Flutter", "UI/UX",];
+    List<String> learning  = ["Python","Node.js","MongoDB"];
+    List<String> askMeAbout = ["Web Dev", "App Dev", "Python",];
 }
 ```
 
@@ -29,24 +27,25 @@ class Developer {
 %% Note: This graph showcases my Technical Skills.  
 %% If it doesn't display, please view it on the GitHub website.
 graph TD
-    A[App Developer] --> B[Front-End]
+    A[Web Developer] --> B[Front-End]
     A --> C[Back-End]
    
     
-    B --> B1[Flutter]
-    B --> B2[Dart]
+    B --> B1[HTML]
+    B --> B2[CSS]
+    B --> B2[BOOTSTRAP]
 
     C --> C1[Languages and FrameWorks]
     C --> C2[Databases]
 
-    C1 --> D1[Go]
-    C1 --> D2[Gin]
-    C1 --> D3[Python]
+    C1 --> D1[PYTHON]
+    C1 --> D2[NODE.JS]
+    C1 --> D3[EXPRESS.JS]
     C1 --> D4[Django]
 
     C2 --> D5[MongoDB]
     C2 --> D6[MySQL]
-    C2 --> D7[Firebase]
+
     
   
    
@@ -68,22 +67,15 @@ graph TD
 ```
 
 
-## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Raseelp&theme=tokyonight&hide_border=true&border_radius=10" height="160" alt="GitHub Streak"/>
-  &nbsp;&nbsp;
-  
-</div>
 
 ## 🤝 Connect With Me
 
 <div align="center">
     
-[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/connectmeraseel/)
-[![Instagram](https://badgen.net/badge/Instagram/Follow/6b7280?icon=instagram&labelColor=black)](https://www.instagram.com/rra_see_ll/?__pwa=1)
-[![HackerRank](https://badgen.net/badge/HackerRank/Practice/4b5563?icon=code&labelColor=black)](https://www.hackerrank.com/raseelp321)
-[![LeetCode](https://badgen.net/badge/LeetCode/Challenge/1f2937?icon=leetcode&labelColor=black)](https://leetcode.com/u/MuhammedRaseel/)
+[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/arshadvkb)
+[![Instagram](https://badgen.net/badge/Instagram/Follow/6b7280?icon=instagram&labelColor=black)](https://www.instagram.com/arshadvkb)
+
 
 
 </div>
