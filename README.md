@@ -4,7 +4,7 @@
 <div align="center">
 
 
-[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/arshadvkb)
+[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/arshad-vkb-b860a0323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 [![Email](https://badgen.net/badge/Email/Send%20Mail/4b5563?icon=gmail&labelColor=black)](mailto:arshadvkb969@gmail.com)
 
 
