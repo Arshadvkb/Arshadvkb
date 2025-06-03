@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
 .home-button{
     text-decoration: none;
     color: rgb(38, 39, 41);
