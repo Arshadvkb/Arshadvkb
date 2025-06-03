@@ -76,6 +76,8 @@ graph TD
 [![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/arshadvkb)
 [![Instagram](https://badgen.net/badge/Instagram/Follow/6b7280?icon=instagram&labelColor=black)](https://www.instagram.com/arshadvkb)
 
+[![Instagram](https://badgen.net/badge/Portfolio/Visit/6b7280?icon=instagram&labelColor=black)]()
+
 
 
 </div>
