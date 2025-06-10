@@ -17,7 +17,7 @@ class Developer {
     string role  = "Python Developer";
     string location  = "India,Kerala";
     List<String> learning  = ["Python","Node.js","MongoDB"];
-    List<String> askMeAbout = ["Web Dev", "App Dev", "Python",];
+    List<String> askMeAbout = ["Web Dev", "Python",];
 }
 ```
 
@@ -65,7 +65,9 @@ graph TD
     
 
 ```
+## GitHub status 
 
+![Arshadvkb's GitHub stats](https://github-readme-stats.vercel.app/api?username=Arshadvkb&show_icons=true&theme=default)
 
 
 
