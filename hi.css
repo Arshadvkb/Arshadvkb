@@ -84,9 +84,9 @@ section {
     display: flex;
     justify-content: space-evenly;
 }
-.nav-item:hover:hover{
+.nav-item:hover{
   
-    background-color:gray;
+    text-decoration:underline;
 }
 .card-link{
     text-decoration: none;
