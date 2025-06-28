@@ -146,3 +146,22 @@ section {
     width: 100%;
     border-radius: 10px;
 }
+
+
+h2{
+  display: inline-block;
+}
+
+h2 span{
+  display: inline-block;
+  color: transparent;
+  -webkit-text-stroke: .7px #12D638 ;
+  animation: display-text 16s linear infinite;
+  animation-delay: calc(var(--i)*-4s);
+}
+
+@keyframes display-text{
+  25%,100%  {
+    display: none;
+  }
+} 
