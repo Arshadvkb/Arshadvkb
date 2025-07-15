@@ -1,15 +1,6 @@
 <h1 align="center">Hi, I'm Arshad VKB 👋</h1>
 <h3 align="center">Python Enthusiast</h3>
 
-<div align="center">
-
-
-[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/arshad-vkb-b860a0323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-[![Email](https://badgen.net/badge/Email/Send%20Mail/4b5563?icon=gmail&labelColor=black)](mailto:arshadvkb969@gmail.com)
-
-
-
-</div>
 
 ```typescript
 class Developer {
@@ -55,19 +46,25 @@ class Developer {
 
 
 
-## 🤝 Connect With Me
+## 🌐 Social Media
 
 <div align="center">
-    
-[![LinkedIn](https://badgen.net/badge/LinkedIn/Connect/374151?icon=linkedin&labelColor=black)](https://www.linkedin.com/in/arshad-vkb-b860a0323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-[![Instagram](https://badgen.net/badge/Instagram/Follow/6b7280?icon=instagram&labelColor=black)](https://www.instagram.com/arshadvkb)
 
-[![Instagram](https://badgen.net/badge/Portfolio/Visit/6b7280?icon=instagram&labelColor=black)](https://arshadvkb.github.io/Arshadvkb/)
-
-
+  <a href="https://www.linkedin.com/in/arshad-vkb-b860a0323?utm_source=share&utm_campaign=share_via&utm_content=profile" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://www.instagram.com/arshadvkb" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="mailto:arshadvkb969@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://arshadvkb.github.io/Arshadvkb/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-24292e?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/>
+  </a>
 
 </div>
-
+<br><br>
 
 
 <div align="center">
