@@ -21,50 +21,7 @@ class Developer {
 }
 ```
 
-## 💻 Technical Skills
 
-```mermaid
-%% Note: This graph showcases my Technical Skills.  
-%% If it doesn't display, please view it on the GitHub website.
-graph TD
-    A[Web Developer] --> B[Front-End]
-    A --> C[Back-End]
-   
-    
-    B --> B1[HTML]
-    B --> B2[CSS]
-    B --> B3[BOOTSTRAP]
-
-    C --> C1[Languages and FrameWorks]
-    C --> C2[Databases]
-
-    C1 --> D1[PYTHON]
-    C1 --> D2[NODE.JS]
-    C1 --> D3[EXPRESS.JS]
-    C1 --> D4[Django]
-
-    C2 --> D5[MongoDB]
-    C2 --> D6[MySQL]
-
-    
-  
-   
-    
-    
-  
-
-    classDef main fill:#1f2937,stroke:#fbbf24,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
-    classDef mobile fill:#374151,stroke:#22d3ee,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
-    classDef web fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
-    classDef lang fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
-
-    class A main;
-    class B,B1,B2,B3 mobile;
-    class C,C1,C2,C3 web;
-    class D1,D2,D3,D4,D5,D6,D7 lang;
-    
-
-```
 ## GitHub status 
 
 ![Arshadvkb's GitHub stats](https://github-readme-stats.vercel.app/api?username=Arshadvkb&show_icons=true&theme=default)
