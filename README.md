@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Arshad VKB 👋</h1>
-<h3 align="center">Python Enthusiast</h3>
+<h3 align="center">Backend Developer</h3>
 
 
 ```typescript
@@ -8,7 +8,7 @@ class Developer {
     string role  = "Python Developer";
     string location  = "India,Kerala";
     List<String> learning  = ["Python","Node.js","MongoDB"];
-    List<String> askMeAbout = ["Web Dev", "Python",];
+    List<String> askMeAbout = ["Web Dev", "Python"];
 }
 ```
 ## 💻 Skills
