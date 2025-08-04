@@ -2,6 +2,7 @@ function sendEmail() {
     var params={
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
         message: document.getElementById("message").value
     } 
 
@@ -13,6 +14,7 @@ function sendEmail() {
             document.getElementById("name").value = "";
             document.getElementById("email").value = "";
             document.getElementById("message").value = "";
+            document.getElementById("subject").value = "";
             console.log(res);
             alert("Your message has been sent successfully!");
         })
