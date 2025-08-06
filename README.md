@@ -69,6 +69,5 @@ class Developer {
 <br><br>
 
 
-<div align="center">
-  <i>Always learning, always growing. Feel free to reach out!</i>
-</div>
+ >"Always learning, always growing. Feel free to reach out!"
+
