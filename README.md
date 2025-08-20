@@ -1,16 +1,17 @@
 <h1 align="center">Hi, I'm Arshad VKB 👋</h1>
-<h3 align="center">Backend Developer</h3>
+## About Me
+
+- 👋 Hi, I’m Arshad VKB, a passionate backend developer from Kerala, India.
+- 💻 Experienced in Python and Node.js, with hands-on skills in Django, Express.js, and MongoDB.
+- 🚀 Proficient in a wide range of programming languages including Python, JavaScript, C, C++, C#, Java, and Dart.
+- 🌐 Familiar with web technologies like HTML5, CSS3, Bootstrap, jQuery, and Flutter for cross-platform apps.
+- 🛠️ Enjoy working with databases (SQL, MongoDB) and tools like Git, GitHub, and npm.
+- 📡 Interested in hardware integration and IoT with Raspberry Pi.
+- 📚 Always learning new technologies and open to discussing web development and Python-related topics.
+- 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/arshad-vkb-b860a0323?utm_source=share&utm_campaign=share_via&utm_content=profile), [Instagram](https://www.instagram.com/arshadvkb), or check out my [portfolio](https://arshadvkb.github.io/Arshadvkb/).
+- ✉️ Feel free to reach out at arshadvkb969@gmail.com.
 
 
-```typescript
-class Developer {
-    string name = "Arshad VKB";
-    string role  = "Python Developer";
-    string location  = "India,Kerala";
-    List<String> learning  = ["Python","Node.js","MongoDB"];
-    List<String> askMeAbout = ["Web Dev", "Python"];
-}
-```
 ## 💻 Skills
 
 <div align="center">
@@ -69,5 +70,5 @@ class Developer {
 <br><br>
 
 
- >"Always learning, always growing. Feel free to reach out!"
+ >" 🌱Always learning, always growing. Feel free to reach out!"
 
