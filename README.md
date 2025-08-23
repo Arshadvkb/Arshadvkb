@@ -12,6 +12,9 @@
 - 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/arshad-vkb-b860a0323?utm_source=share&utm_campaign=share_via&utm_content=profile), [Instagram](https://www.instagram.com/arshadvkb), or check out my [portfolio](https://arshadvkb.github.io/Arshadvkb/).
 - ✉️ Feel free to reach out at arshadvkb969@gmail.com.
 
+## Achivements🏆
+
+- Winner in a *National level* tech fest 
 
 ## 💻 Skills
 
@@ -48,9 +51,7 @@
   
 </div>
 
-## Achivements🏆
 
-- Winner in a *National level* tech fest 
 
 ## GitHub status 
 
