@@ -12,7 +12,7 @@
 - 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/arshad-vkb-b860a0323?utm_source=share&utm_campaign=share_via&utm_content=profile), [Instagram](https://www.instagram.com/arshadvkb), or check out my [portfolio](https://arshadvkb.github.io/Arshadvkb/).
 - ✉️ Feel free to reach out at arshadvkb969@gmail.com.
 
-## Achivements🏆
+## 🏆Achivements
 
 - Winner in a *National level* tech fest 
 
@@ -59,8 +59,6 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=arshadvkb&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=arshadvkb&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=arshadvkb&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=arshadvkb&limit=5&theme=dark&combine_all_yearly_contributions=true)
