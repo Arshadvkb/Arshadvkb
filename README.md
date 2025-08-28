@@ -3,6 +3,7 @@
 ## About Me
 
 - 👋 Hi, I’m Arshad VKB, a passionate backend developer from Kerala, India.
+- Bac Computer Science pass out in 2025
 - 💻 Experienced in Python and Node.js, with hands-on skills in Django, Express.js, and MongoDB.
 - 🚀 Proficient in a wide range of programming languages including Python, JavaScript, C, C++, C#, Java, and Dart.
 - 🌐 Familiar with web technologies like HTML5, CSS3, Bootstrap, jQuery, and Flutter for cross-platform apps.
@@ -11,6 +12,11 @@
 - 📚 Always learning new technologies and open to discussing web development and tech related topics.
 - 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/arshad-vkb-b860a0323?utm_source=share&utm_campaign=share_via&utm_content=profile), [Instagram](https://www.instagram.com/arshadvkb), or check out my [portfolio](https://arshadvkb.github.io/Arshadvkb/).
 - ✉️ Feel free to reach out at arshadvkb969@gmail.com.
+
+## 💻 Internships 
+
+- Python Django and Flutter developer at Regional Technologies 
+
 
 ## 🏆Achivements
 
