@@ -8,13 +8,13 @@
 - 🌐 Familiar with web technologies like HTML5, CSS3, Bootstrap, jQuery, and Flutter for cross-platform apps.
 - 🛠️ Enjoy working with databases (SQL, MongoDB) and tools like Git, GitHub, and npm.
 - 📡 Interested in hardware integration and IoT with Raspberry Pi.
-- 📚 Always learning new technologies and open to discussing web development and Python-related topics.
+- 📚 Always learning new technologies and open to discussing web development and tech related topics.
 - 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/arshad-vkb-b860a0323?utm_source=share&utm_campaign=share_via&utm_content=profile), [Instagram](https://www.instagram.com/arshadvkb), or check out my [portfolio](https://arshadvkb.github.io/Arshadvkb/).
 - ✉️ Feel free to reach out at arshadvkb969@gmail.com.
 
 ## 🏆Achivements
 
-- Winner in a *National level* tech fest 
+- Winner in a `National level` tech fest 
 
 ## 💻 Skills
 
