@@ -87,9 +87,6 @@
   <a href="https://arshadvkb.github.io/Arshadvkb/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-24292e?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/>
   </a>
-    <a href="arshadvkb-portfolio.netlify.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-24292e?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/>
-  </a>
   
 
 </div>
