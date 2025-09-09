@@ -1,3 +1,5 @@
+const year=new Date().getFullYear()
+document.querySelector('year').textContent=year
 function sendEmail() {
     var params={
         name: document.getElementById("name").value,
