@@ -55,6 +55,9 @@
   <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/>
   <img src="https://img.shields.io/badge/postman-%23F24E1E.svg?style=for-the-badge&logo=postman&logoColor=white"/>
    <img src="https://img.shields.io/badge/Rest-api-%23F24E1E.svg?style=for-the-badge&logo=Restapi&logoColor=white"/>
+   <img src="https://img.shields.io/badge/netlify-000000.svg?style=for-the-badge&logo=Netlify&logoColor=white"/>
+   <img src="https://img.shields.io/badge/Vercel-000000.svg?style=for-the-badge&logo=Vercel&logoColor=white"/>
+   <img src="https://img.shields.io/badge/Render-46E3B7.svg?style=for-the-badge&logo=Render&logoColor=white"/>
   
   
 </div>
