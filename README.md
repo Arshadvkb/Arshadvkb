@@ -20,7 +20,7 @@
 
 ## 🏆Achivements
 
-- Winner in a `National level` tech fest 
+- 🥇 First Prize Winner at national-level tech fest Tharang 2025 (IHRD) for college-level hardware project
 
 ## 💻 Skills
 
