@@ -1,6 +1,4 @@
-
-
-![snake gif](https://github.com/Arshad vkb/Arshad vkb/blob/output/github-snake-dark.svg)
+![snake gif](https://github.com/Arshadvkb/Arshadvkb/blob/output/github-snake-dark.svg)
 
 
 
