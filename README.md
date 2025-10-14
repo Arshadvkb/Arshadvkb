@@ -1,3 +1,9 @@
+
+
+![snake gif](https://github.com/Arshad vkb/Arshad vkb/blob/output/github-snake-dark.svg)
+
+
+
 <h1 align="center">Hi, I'm Arshad VKB 👋</h1>
 
 ## About Me
