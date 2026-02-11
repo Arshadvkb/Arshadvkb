@@ -6,7 +6,7 @@ const projects = [
     detailedDescription:
       "The AERO AI project automates an aeroponics system by integrating Gemini 2.5 Flash for AI-driven optimization, MQTT for real-time data communication, Raspberry Pi as the central hub hosting a Mosquitto MQTT broker and Node.js server, ESP32 for interfacing with sensors (e.g., DHT22 for temperature/humidity, pH for nutrients) and actuators (e.g., ultrasonic foggers, pumps), and a Flutter-based dashboard for user monitoring and control. Sensor data is published via MQTT, processed by the Node.js server with Gemini API for intelligent decisions (e.g., adjusting misting based on humidity), and commands are sent back to the ESP32, while the Flutter dashboard displays real-time data and allows manual control, creating an efficient, scalable system for automated plant growth.",
     technologies: [
-      "IoT",
+      "Embedded C",
       "Python",
       "Node.js",
       "Flutter",
@@ -24,7 +24,7 @@ const projects = [
       "Comprehensive fitness companion featuring workout tracking, nutrition planning, and progress analytics.",
     detailedDescription:
       "All-In-One Fitness app project is an innovative and comprehensive platform designed to cater to the diverse needs of fitness enthusiasts, integrating features for admins, users, trainers, and experts. The app enhances user engagement by incorporating advanced functionalities like facial recognition for seamless attendance tracking, enabling accurate and efficient check-ins at gyms or fitness centers. It also includes a robust chat system, allowing users to communicate directly with trainers and experts for personalized health tips and guidance, fostering a supportive fitness community. Additionally, the app features an AI-powered chatbot, leveraging cutting-edge technology to provide instant responses, workout suggestions, and motivational support, enhancing the user experience. Built with a focus on modularity and scalability, the app aims to streamline fitness management, making it a versatile tool for users to achieve their health and fitness goals efficiently.",
-    technologies: ["Django", "React", "OpenCV", "Tensorflow", "Flutter"],
+    technologies: ["Django","OpenCV", "Tensorflow", "Flutter"],
     image: "./picture/Black and White Modern Fitness Club Logo_20250731_142203_0000.png",
     github: "#",
     live: "#",
@@ -36,7 +36,7 @@ const projects = [
       "Secure system with JWT authentication, enabling CRUD operations for books and members.",
     detailedDescription:
       "A comprehensive Library Management System built with robust security using JWT (JSON Web Tokens) for authentication and authorization. The system streamlines library operations through essential CRUD (Create, Read, Update, Delete) functionalities with role-based access control for administrators and librarians. Features include secure user authentication, book cataloging with advanced search capabilities, member management with verification, circulation tracking, automated due date reminders, and comprehensive administrative controls for seamless library operations.",
-    technologies: ["MERN Stack", "JWT", "Tailwind CSS"],
+    technologies: ["MongoDb","Express.js","React.js","Node.js", "JWT", "Tailwind CSS","Cloudinary"],
     image: "./picture/Modern Public Library Logo Template.png",
     github: "#",
     live: "#",
@@ -48,7 +48,7 @@ const projects = [
       "ChatSphere: Secure, instant messaging with private rooms and file sharing using Socket.io.",
     detailedDescription:
       "ChatSphere is a fun, real-time chat app I built using the MERN stack (MongoDB for data, Express and Node.js for the backend, React for the sleek frontend) and Socket.io to make conversations feel instant and alive. It lets users sign up securely, jump into private or group rooms, send messages with typing indicators and read receipts, and even share images or files—all without any lag. Deployed on Vercel and Heroku, it's perfect for quick team huddles or casual catch-ups, slashing wait times by 80% compared to old-school polling, and the code's open on GitHub for anyone to tweak or join in!",
-    technologies: ["MERN Stack", "Socket.io", "Cloudinary"],
+    technologies:["MongoDb","Express.js","React.js","Node.js", "JWT", "Tailwind CSS","Cloudinary","Socket.io","DaisyUi"],
     image: "picture/Creative Chatting App Logo.png", 
     github: "#",
     live: "#",
