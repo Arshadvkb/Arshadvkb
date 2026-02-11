@@ -280,5 +280,4 @@ document.addEventListener('DOMContentLoaded', () => {
     renderProjects();
     renderSkills();
     renderExperience();
-   
 });
