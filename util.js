@@ -110,7 +110,7 @@ const skillCategories = [
   },
   {
     title: "Tools & Platforms",
-    description: "DevOps & Workflow",
+    description: "Workflow",
     skills: [
       { name: "Git", logo: "https://cdn.simpleicons.org/git" },
       { name: "GitHub", logo: "https://cdn.simpleicons.org/github" },
@@ -123,6 +123,7 @@ const skillCategories = [
       { name: "Supabase", logo: "https://cdn.simpleicons.org/supabase" },
       { name: "NPM", logo: "https://cdn.simpleicons.org/npm" },
       { name: "pip", logo: "https://cdn.simpleicons.org/python" },
+      { name: "Cloudinary", logo: "https://cdn.simpleicons.org/cloudinary" },
     ],
     iconClass: "fas fa-tools",
     className: "border-amber-500",
@@ -136,6 +137,22 @@ const skillCategories = [
     ],
     iconClass: "fas fa-microchip",
     className: "border-emerald-500",
+  },
+  {
+    title: "Cloud & DevOps",
+    description: "Cloud Infrastructure & Deployment",
+    skills: [
+      { name: "Docker", logo: "https://cdn.simpleicons.org/docker" },
+      {
+        name: "Firebase Hosting",
+        logo: "https://cdn.simpleicons.org/firebase",
+      },
+      { name: "Vercel", logo: "https://cdn.simpleicons.org/vercel" },
+      { name: "Netlify", logo: "https://cdn.simpleicons.org/netlify" },
+      { name: "Render", logo: "https://cdn.simpleicons.org/render" },
+    ],
+    iconClass: "fas fa-cloud",
+    className: "border-blue-500",
   },
 ];
 
