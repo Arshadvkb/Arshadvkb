@@ -9,7 +9,7 @@
 - 👋 Hi, I’m Arshad VKB, a passionate backend developer from Kerala, India.
 - 📚 BSc Computer Science pass out in 2025
 - 💻 Experienced in Python and Node.js, with hands-on skills in Django, Express.js, and MongoDB.
-- 🚀 Proficient in a wide range of programming languages including Python, JavaScript, C, C++, C#, Java, and Dart.
+- 🚀 Proficient in a wide range of programming languages including Python, JavaScript, TypeScript, C, C++, C#, Java, and Dart.
 - 🌐 Familiar with web technologies like HTML5, CSS3, Bootstrap, jQuery, and Flutter for cross-platform apps.
 - 🛠️ Enjoy working with databases (SQL, MongoDB) and tools like Git, GitHub, and npm.
 - 📡 Interested in hardware integration and IoT with Raspberry Pi.
@@ -79,7 +79,8 @@
 
 ![](https://github-readme-stats.vercel.app/api?username=arshadvkb&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=arshadvkb&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=arshadvkb&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=arshadvkb&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 
 ### 🔝 Top Contributed Repo
