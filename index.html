@@ -21,9 +21,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="hi.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
@@ -32,133 +32,145 @@
 
 <body>
 
-  <header style="color:white; position: fixed; width: 100%; height:12vh ; z-index: 100">
-    <div class="row " style="background-color: white;">
-      <div class="col-9 " style="padding-right: 10px;">
-        <a href="#Home" class="home-button ">
-          <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+  <header style="position: fixed; width: 100%; z-index: 100;">
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container-fluid px-4 px-md-5">
+        <a href="#Home" class="home-button">
           <h1 class="namee" style="font-family: 'Bruno Ace', sans-serif;">Arshad VKB</h1>
         </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="col-3 ">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">Project</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">contact</a>
-                </li>
-
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-
-      </div>
-    </div>
+    </nav>
   </header>
 
-  <section class="Home pt-5" id="Home">
-    <div class="hero-glass">
+  <section class="Home" id="Home">
+    <div class="container hero-container">
       <div class="row align-items-center">
-        <div class="col-md-7 d-flex flex-column justify-content-center align-items-start home-animate">
-          <h1 class="hero-title">Arshad VKB</h1>
+        <div
+          class="col-md-7 d-flex flex-column justify-content-center align-items-center align-items-md-start text-center text-md-start home-animate">
+          <span class="hero-pretitle">Hello, I am</span>
+          <h1 class="hero-title">Arshad <span class="gradient-text">VKB</span></h1>
           <h2 class="hero-subtitle">Backend Developer</h2>
-          <p class="hero-desc">As a passionate backend developer specializing in scalable architectures, secure APIs, I
-            build robust, high-performance systems that drive innovation and reliability at the heart of modern
+          <p class="hero-desc">As a passionate backend developer specializing in scalable architectures and secure APIs,
+            I build robust, high-performance systems that drive innovation and reliability at the heart of modern
             applications.</p>
-          <div class="hero-socials mt-3">
+
+          <div
+            class="hero-buttons d-flex gap-3 align-items-center justify-content-center justify-content-md-start mb-4">
+            <a href="#projects" class="btn-primary-custom">View Work <i class="fas fa-arrow-right ms-2"></i></a>
+            <a href="#contact" class="btn-secondary-custom">Contact Me</a>
+          </div>
+
+          <div
+            class="hero-socials-minimal d-flex gap-3 align-items-center justify-content-center justify-content-md-start">
+            <span class="socials-label me-2">Connect</span>
+            <a href="https://github.com/arshadvkb" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/arshad-vkb" target="_blank" aria-label="LinkedIn"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/arshad_vkb" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/arshadvkb" target="_blank" aria-label="Instagram"><i
                 class="fab fa-instagram"></i></a>
             <a href="https://www.facebook.com/share/KioMU1hwQx8cmYCN" target="_blank" aria-label="Facebook"><i
                 class="fab fa-facebook"></i></a>
-            <a href="https://x.com/arshad_vkb?t=acFJcTJrXmr26GVVT4dmrA&s=08" target="_blank" aria-label="Twitter"><i
-                class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/arshad-vkb-b860a0323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_apphttps://www.linkedin.com/in/arshadvkb"
-              target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/arshadvkb" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
           </div>
         </div>
-        <div class="col-md-5 text-center home-animate">
-          <img src="picture\WhatsApp Image 2025-06-02 at 6.53.12 PM.jpeg" alt="Profile" class="hero-img shadow-lg">
+        <div class="col-md-5 text-center home-animate mt-5 mt-md-0">
+          <div class="hero-img-container">
+            <img src="picture\WhatsApp Image 2025-06-02 at 6.53.12 PM.jpeg" alt="Profile" class="hero-img-minimal">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="about" class="about-page bg-light py-5">
+  <section id="about" class="about-section py-5">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">About</span>
-        <h1 class="about-page-head text-center mb-4">Get to Know Me</h1>
-        <p class="section-subtitle">Passionate developer crafting digital solutions</p>
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Get to Know <span>My Journey</span></h2>
+        <p class="section-subtitle">A blend of backend engineering, scalability, and clean architecture</p>
       </div>
 
-      <div class="about-content">
-        <div class="row align-items-center">
-          <div class="col-lg-6 about-text">
-            <div class="about-card">
-              <h3>Hello! I'm Arshad VKB</h3>
-              <p class="about-description">
-                A passionate backend developer from Calicut, Kerala, specializing in Node.js ,express.js,React for
-                building reliable and scalable web applications. I have experience with python Django, modern frontend
-                technologies like HTML, CSS, Bootstrap, and Tailwind CSS, along with programming languages
-                including Java, C, and C++.
-              </p>
-
-              <div class="skills-grid">
-                <div class="skill-item">
-                  <i class="fab fa-js"></i>
-                  <span>JavaScript</span>
-                </div>
-                <div class="skill-item">
-                  <i class="fab fa-node-js"></i>
-                  <span>Node.js</span>
-                </div>
-                <div class="skill-item">
-                  <i class="fab fa-python"></i>
-                  <span>Python & Django</span>
-                </div>
-                <div class="skill-item">
-                  <i class="fab fa-git-alt"></i>
-                  <span>Git & GitHub</span>
-                </div>
-
+      <div class="about-container">
+        <div class="row align-items-center gy-5">
+          <!-- Left: Image with Premium Frame and Glows -->
+          <div class="col-lg-5 col-md-12 text-center text-lg-start">
+            <div class="about-image-frame">
+              <!-- Glow background -->
+              <div class="about-image-glow"></div>
+              <!-- Floating status badge -->
+              <div class="about-status-badge">
+                <span class="pulse-dot"></span>
+                <span>Available for Projects</span>
               </div>
-
-              <div class="about-stats">
-                <div class="stat-item">
-                  <h4>5+</h4>
-                  <p>Projects Completed</p>
-                </div>
-                <div class="stat-item">
-                  <h4>1</h4>
-                  <p>Years Experience</p>
-                </div>
+              <!-- Outer decorative border -->
+              <div class="about-image-border"></div>
+              <!-- Main Image -->
+              <div class="about-image-inner">
+                <img src="picture/WhatsApp Image 2025-05-31 at 1.35.43 PM.jpeg" alt="Arshad VKB"
+                  class="about-profile-img">
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 about-image">
-            <div class="image-wrapper">
-              <div class="image-background"></div>
-              <img src="picture/WhatsApp Image 2025-05-31 at 1.35.43 PM.jpeg" alt="Arshad VKB" class="about-img">
+          <!-- Right: Text Content and Stats -->
+          <div class="col-lg-7 col-md-12">
+            <div class="about-text-content">
+              <h3 class="about-greet">Hello! I'm <span class="highlight">Arshad VKB</span></h3>
+              <p class="about-description">
+                A passionate backend developer from Calicut, Kerala, specializing in building reliable and scalable
+                server-side systems. With expertise in <strong>Node.js</strong>,
+                <strong>Express.js</strong>,<strong>MongoDB</strong> and <strong>React</strong>, I focus on crafting
+                high-performance REST APIs and seamless web experiences. I also have hands-on experience with Python
+                Django, modern CSS frameworks (Tailwind, Bootstrap), and backend languages like Java, C, and C++.
+              </p>
+
+              <!-- Stats Cards -->
+              <div class="row g-4 mb-4">
+                <div class="col-sm-6">
+                  <div class="about-stat-card">
+                    <div class="stat-icon-wrapper">
+                      <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="stat-details">
+                      <span class="stat-num">1+</span>
+                      <span class="stat-text">Years of Experience</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="about-stat-card">
+                    <div class="stat-icon-wrapper">
+                      <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="stat-details">
+                      <span class="stat-num">5+</span>
+                      <span class="stat-text">Projects Completed</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
           </div>
         </div>
@@ -168,10 +180,10 @@
 
   <section id="skills" class="py-5 bg-white">
     <div class="container">
-      <div class="section-header text-center mb-5">
-        <span class="section-tag text-primary text-uppercase fw-bold">Skills</span>
-        <h1 class="display-5 fw-bold">Technical Expertise</h1>
-        <p class="text-muted">My technical proficiency and tools I use</p>
+      <div class="section-header">
+        <span class="section-tag">Skills</span>
+        <h2 class="section-title">Technical <span>Expertise</span></h2>
+        <p class="section-subtitle">My technical proficiency and tools I use</p>
       </div>
       <div id="skills-container" class="row justify-content-center">
         <!-- Skills will be dynamically populated here -->
@@ -179,12 +191,147 @@
     </div>
   </section>
 
+  <section id="specialties" class="py-5 bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Focus</span>
+        <h2 class="section-title">Core <span>Specialisations</span></h2>
+        <p class="section-subtitle">Key technologies I specialize in for building high-performance web applications</p>
+      </div>
+
+      <div class="row g-4 justify-content-center specialty-grid">
+        <!-- MongoDB Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="specialty-card mongodb">
+            <div class="specialty-icon-wrapper">
+              <img src="https://cdn.simpleicons.org/mongodb" alt="MongoDB" class="specialty-icon">
+            </div>
+            <h3 class="specialty-title">MongoDB</h3>
+            <p class="specialty-desc">Designing flexible, high-performance NoSQL database schemas, managing aggregation
+              pipelines, and ensuring fast query response times with Mongoose.</p>
+            <div class="specialty-tags">
+              <span>NoSQL</span>
+              <span>Mongoose</span>
+              <span>Database Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TypeScript Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="specialty-card typescript">
+            <div class="specialty-icon-wrapper">
+              <img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" class="specialty-icon">
+            </div>
+            <h3 class="specialty-title">TypeScript</h3>
+            <p class="specialty-desc">Developing type-safe, maintainable applications with strict interfaces, compiler
+              configurations, and advanced generic systems for clean coding.</p>
+            <div class="specialty-tags">
+              <span>Type Safety</span>
+              <span>Generics</span>
+              <span>OOP</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Express.js Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="specialty-card express">
+            <div class="specialty-icon-wrapper">
+              <img src="https://cdn.simpleicons.org/express/black" alt="Express.js" class="specialty-icon">
+            </div>
+            <h3 class="specialty-title">Express.js</h3>
+            <p class="specialty-desc">Developing lightweight, robust middleware-based routing, RESTful API design,
+              session management, and backend security protocols.</p>
+            <div class="specialty-tags">
+              <span>REST APIs</span>
+              <span>Middleware</span>
+              <span>Routing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- React.js Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="specialty-card react">
+            <div class="specialty-icon-wrapper">
+              <img src="https://cdn.simpleicons.org/react" alt="React.js" class="specialty-icon">
+            </div>
+            <h3 class="specialty-title">React.js</h3>
+            <p class="specialty-desc">Building dynamic, responsive user interfaces with reusable components, hooks,
+              state management, and optimized rendering.</p>
+            <div class="specialty-tags">
+              <span>Frontend</span>
+              <span>Hooks</span>
+              <span>State Management</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Node.js Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="specialty-card node">
+            <div class="specialty-icon-wrapper">
+              <img src="https://cdn.simpleicons.org/nodedotjs" alt="Node.js" class="specialty-icon">
+            </div>
+            <h3 class="specialty-title">Node.js</h3>
+            <p class="specialty-desc">Developing scalable server-side systems, asynchronous event loops, real-time
+              communication, and robust file system integrations.</p>
+            <div class="specialty-tags">
+              <span>Runtime</span>
+              <span>Event Loop</span>
+              <span>Asynchronous</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Git Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="specialty-card git">
+            <div class="specialty-icon-wrapper">
+              <img src="https://cdn.simpleicons.org/git" alt="Git" class="specialty-icon">
+            </div>
+            <h3 class="specialty-title">Git & GitHub</h3>
+            <p class="specialty-desc">Managing complex version control workflows, branch integration strategies, pull
+              requests,
+              and collaborative repository environments.</p>
+            <div class="specialty-tags">
+              <span>Version Control</span>
+              <span>Branching</span>
+              <span>Collaboration</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Firebase Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="specialty-card firebase">
+            <div class="specialty-icon-wrapper">
+              <img src="https://cdn.simpleicons.org/firebase" alt="Firebase" class="specialty-icon">
+            </div>
+            <h3 class="specialty-title">Firebase</h3>
+            <p class="specialty-desc">Integrating Firestore databases, user authentication services, cloud functions,
+              hosting, and push notification solutions.</p>
+            <div class="specialty-tags">
+              <span>Cloud Services</span>
+              <span>Auth</span>
+              <span>Realtime DB</span>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
   <section id="experience" class="py-5 bg-light">
     <div class="container">
-      <div class="section-header text-center mb-5">
-        <span class="section-tag text-primary text-uppercase fw-bold">Journey</span>
-        <h1 class="display-5 fw-bold">Experience & Education</h1>
-        <p class="text-muted">My professional and academic timeline</p>
+      <div class="section-header">
+        <span class="section-tag">Journey</span>
+        <h2 class="section-title">Experience & <span>Education</span></h2>
+        <p class="section-subtitle">My professional and academic timeline</p>
       </div>
       <div id="experience-container" class="container">
         <!-- Experience will be dynamically populated here -->
@@ -193,10 +340,13 @@
   </section>
 
   <section class="projects" id="projects">
-
-    <center>
-      <h1>Projects</h1>
-    </center>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Recent <span>Projects</span></h2>
+        <p class="section-subtitle">A showcase of my recent applications and projects</p>
+      </div>
+    </div>
 
     <div class="container-fluid project-content">
       <div id="projects-container" class="row m-5">
@@ -206,11 +356,14 @@
 
   </section>
   <section class="contact bg-light" id="contact">
-
-    <center>
-      <h1>Get In Touch</h1>
-    </center>
-    <div class="container pt-5">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <p class="section-subtitle">Feel free to reach out for collaborations or queries</p>
+      </div>
+    </div>
+    <div class="container pt-3">
       <div class="row">
         <div class=" col-6">
           <input type="text" class="form-control mb-3" placeholder="Enter your name" id="name">
@@ -226,7 +379,8 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <textarea class="form-control mb-3" rows="5" placeholder="Enter your message" id="message"></textarea>
+          <textarea class="form-control mb-3" rows="5" placeholder="Enter your message" id="message"
+            style="resize: none;"></textarea>
         </div>
         <div class="col-12">
           <input type="button" value="Send Message" class="btn btn-primary mb-3" style="width: 100%;"
@@ -238,20 +392,20 @@
   </section>
 
   <footer class="footer">
-    <div class="container-fluid">
-      <div class="row mb-4">
-        <div class="col-md-4">
-          <h5 class="linkstag">Quick Links</h5>
-          <ul class=" list-unstyled ">
-            <li><a class="qlink" href="#Home">Home</a></li>
-            <li><a class="qlink" href="#about">About</a></li>
-            <li><a class="qlink" href="#projects">Projects</a></li>
-            <li><a class="qlink" href="#contact">Contact</a></li>
+    <div class="container">
+      <div class="row gy-4 mb-5">
+        <div class="col-md-4 footer-col">
+          <h5 class="footer-title">Quick Links</h5>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-        <div class="col-md-4">
-          <h5>Follow Me</h5>
-          <div class="social-links">
+        <div class="col-md-4 footer-col">
+          <h5 class="footer-title">Follow Me</h5>
+          <div class="footer-socials">
             <a href="https://www.instagram.com/arshadvkb" target="_blank" aria-label="Instagram"><i
                 class="fab fa-instagram"></i></a>
             <a href="https://www.facebook.com/share/KioMU1hwQx8cmYCN" target="_blank" aria-label="Facebook"><i
@@ -262,18 +416,21 @@
             <a href="https://github.com/arshadvkb" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
           </div>
         </div>
-        <div class="col-md-4">
-          <h5>Contact</h5>
-          <p>Email: <a href="mailto:arshadvkb969@gmail.com" style="text-decoration: none;">arshadvkb969@gmail.com</a>
-          </p>
-
+        <div class="col-md-4 footer-col">
+          <h5 class="footer-title">Contact</h5>
+          <div class="footer-contact-info">
+            <p><i class="fas fa-envelope me-2"></i> <a href="mailto:arshadvkb969@gmail.com"
+                class="footer-email">arshadvkb969@gmail.com</a></p>
+          </div>
         </div>
       </div>
-      <hr style="border-color: rgba(255, 255, 255, 0.2); margin: 20px 0;">
-      <div class="row text-center pt-3">
-        <p style="margin: 0;">Copyright © Arshad VKB . <span id='year'></span> All rights Reserved</p>
+      <hr class="footer-divider">
+      <div class="row pt-4">
+        <div class="col-12 text-center">
+          <p class="footer-copyright">Copyright &copy; Arshad VKB. <span id="year"></span> All Rights Reserved</p>
+        </div>
       </div>
-      </hr>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

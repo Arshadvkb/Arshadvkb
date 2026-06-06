@@ -2,6 +2,18 @@ document.addEventListener("DOMContentLoaded", function() {
     const year = new Date().getFullYear();
     document.querySelector('#year').textContent = year;
 
+    // Close mobile menu when clicking a link
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    const menuToggle = document.getElementById('navbarSupportedContent');
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    navLinks.forEach((l) => {
+        l.addEventListener('click', () => {
+            if (menuToggle && menuToggle.classList.contains('show') && navbarToggler) {
+                navbarToggler.click();
+            }
+        });
+    });
+
     // Header scroll effect
     const header = document.querySelector('header');
     window.addEventListener('scroll', function() {
@@ -45,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }, observerOptions);
 
     // Animate elements on scroll
-    document.querySelectorAll('.card, .about-card, .skill-item, .stat-item, .form-control').forEach(el => {
+    document.querySelectorAll('.card, .about-card, .skill-item, .stat-item, .form-control, .specialty-card').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(30px)';
         el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
