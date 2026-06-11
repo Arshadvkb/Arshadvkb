@@ -100,7 +100,7 @@ const skillCategories = [
       { name: "JavaScript", logo: "https://cdn.simpleicons.org/javascript" },
       { name: "Python", logo: "https://cdn.simpleicons.org/python" },
       { name: "TypeScript", logo: "https://cdn.simpleicons.org/typescript" },
-      { name: "Java", logo: "https://cdn.simpleicons.org/openjdk" },
+      { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
       { name: "C", logo: "https://cdn.simpleicons.org/c" },
       { name: "C++", logo: "https://cdn.simpleicons.org/cplusplus" },
       {
