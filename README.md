@@ -19,7 +19,8 @@
 
 ## 💻 Internships 
 
-- Python Django and Flutter developer at Regional Technologies 
+- Python Django and Flutter developer at Regional Technologies
+- MERN Stack developer at Bridgeon
 
 
 ## 🏆Achivements
