@@ -229,6 +229,14 @@ const skillCategories = [
        "Developed cross-platform mobile applications using Flutter and built robust backend services with Python. Collaborated on full-stack projects to deliver scalable solutions.",
      iconClass: "fas fa-briefcase",
    },
+   {
+     title: "MERN Stack Developer",
+     company: "Bridgeon",
+     duration: "2026",
+     description:
+       "Contributed to full-stack application development by building scalable features with MongoDB, Express.js, React.js, and Node.js.",
+     iconClass: "fas fa-briefcase",
+   },
  ];
 
  function renderProjects() {
