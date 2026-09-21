@@ -122,6 +122,9 @@ const skillCategories = [
     description: "Full-stack development tools",
     skills: [
       { name: "React", logo: "https://cdn.simpleicons.org/react" },
+      { name: "Redux", logo: "https://cdn.simpleicons.org/redux" },
+      { name: "Redux Toolkit", logo: "https://cdn.simpleicons.org/redux" },
+      { name: "Zustand", logo: "https://cdn.simpleicons.org/zustand/white" },
       { name: "Node.js", logo: "https://cdn.simpleicons.org/nodedotjs" },
       { name: "Express", logo: "https://cdn.simpleicons.org/express/black" },
       { name: "Django", logo: "https://cdn.simpleicons.org/django" },
